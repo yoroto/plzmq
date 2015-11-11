@@ -13,3 +13,5 @@ foreign_resource(plzmq_i,
                  [plzmq_errno_c,
                   plzmq_strerror_c,
                   plzmq_version_c]).
+
+:- load_foreign_resource( plzmq_i ).
